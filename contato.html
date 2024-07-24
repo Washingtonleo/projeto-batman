@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style-contato.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contatos</title>
+</head>
+<body>
+    <section>
+        <div id="titulo">
+            <a href="index.html">
+                <h1>Contatos</h1>
+            </a>
+        </div>
+        <div class="corpo">
+            <div id="formulario">
+                <form action="contato.php" method="post" class="form">
+                    <input type="text" name="nome" id="inome" required placeholder="NOME" type="text"> <br>
+
+                    <input type="email" name="email" id="iemail" required type="email" placeholder="EMAIL"> <br>
+
+                    <textarea name="msg" id="imsg" placeholder="MENSSAGEM" rows="10" class="area"></textarea>
+
+                    <button type="submit" style="display: block;" class="botao">
+                        <i class="fa-solid fa-paper-plane"></i> 
+                      </button>
+                    <input type="reset" value="Limpar" class="limpar">
+                </form>
+            </div>
+            <div id="contact">
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    (DDD) xxxxx - xxxx
+                </p> <br>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    seunome@email.com
+                </p> <br>
+                <hr><br>
+                <div class="redes-sociais">
+                    <i class="fa-brands fa-instagram inst"></i>
+
+                    <i class="fa-solid fa-x xis"></i>
+                    
+                    <i class="fa-brands fa-facebook face"></i>
+                </div><br><hr><br>
+                <span>TODOS OS DIREITOS RESERVADOS &copy;</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
