@@ -84,6 +84,10 @@ iframe{
     box-shadow: 2px 2px 5px rgba(147, 2, 2, 0.586);
 }
 
+footer{
+    display: none;
+}
+/*--------------- "Em desenvolvimento"------------------------*/
 @media(max-width: 768px) {
 
     body{
